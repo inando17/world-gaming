@@ -1,0 +1,190 @@
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+
+:root {
+    --theme-general-color: #555555;
+    /* theme general color ok*/
+}
+
+:root {
+    --theme-primary-color: #0039c4;
+    /* theme primary color ok*/
+}
+
+:root {
+    --theme-secondary-color: #ffcee3;
+    /* theme secondary color ok*/
+}
+
+:root {
+    --theme-white-color: #ffffff;
+    /* theme white font color ok*/
+}
+
+:root {
+    --theme-gray-color: #f9f9f9;
+    /* theme gray font color ok*/
+}
+
+:root {
+    --theme-light-color: #ebf4ff;
+    /* theme light gray color ok*/
+}
+
+:root {
+    --theme-text-gray: #ffd5cc;
+    /* theme text gray color*/
+}
+:root {
+    --theme-extra1-color: #444444;
+    /* theme extra1  color ok*/
+}
+:root {
+    --theme-extra2-color: #434343;
+    /* theme extra2  color ok*/
+}
+:root {
+    --theme-extra3-color: #cdcdcd;
+    /* theme extra3  color*/
+}
+:root {
+    --theme-extra4-color: #e0e2e4;
+    /* theme extra4  color*/
+}
+:root {
+    --theme-extra5-color: #e8e8e8;
+    /* theme extra5  color*/
+}
+:root {
+    --theme-dark-color: #171614;
+    /* theme dark color ok*/
+}
+
+:root {
+    --theme-footer-color: #21222a;
+    /* theme footer color */
+}
+
+:root {
+    --theme-primary-opacity-color: rgba(234, 196, 59, .5);
+    /* theme secondary color*/
+}
+
+:root {
+    --theme-secondary-opacity-color: rgba(42, 50, 112, .8);
+    /* theme secondary color */
+}
+
+:root {
+    --theme-extra1-opacity-color: rgba(34, 144, 135, .8);
+    /* theme secondary color*/
+}
+
+:root {
+    --theme-extra2-opacity-color: rgba(29, 45, 58, .8);
+    /* theme secondary color*/
+}
+
+
+/*==================================
+Font Variable
+==================================*/
+:root {
+    --theme-general-font: 'Roboto', sans-serif;
+    /* Font use for normal text and general text */
+}
+:root {
+    --theme-highlight-font: 'Roboto', sans-serif;
+    /* Font used in title or special area */
+}
+:root {
+    --theme-hiperlink-font: 'Roboto', sans-serif;
+    /* Font use for normal text and link text */
+}
+:root {
+    --theme-extra1-font: 'Nunito Sans', sans-serif;
+    /* Font use for normal text and link text */
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-extra1 {
+    color: var(--theme-extra1-color)
+}
+.placeholder-extra3::placeholder,
+.text-extra3 {
+    color: var(--theme-extra3-color)
+}
+p {
+	line-height: 28px;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: var(--theme-highlight-font);
+    color: var(--theme-dark-color);
+}
+h1,
+.h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+h2,
+.h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+h3,
+.h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+h4,
+.h4 {
+    font-size: 26px;
+    font-weight: 500;
+}
+h5,
+.h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+h6,
+.h6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.btn-link.secondary-border-bottom::after {
+	background-color: var(--theme-primary-color);
+}
+#sidebar .widget-title {
+    font-size: 18px;
+}
+.footer-nav ul li {
+	line-height: 30px;
+}
+.copyright {
+    font-size: 16px;
+    font-weight: 300 !important;
+}
+.tagcloud ul li a {
+    background-color: var(--theme-extra5-color) !important;
+}
+@media screen and (max-width: 1199px) {
+	.slider {
+		background-size: 60% !important;
+	}
+}

@@ -1,0 +1,217 @@
+/*==================================
+Theme Color All Codes Variable
+==================================*/
+
+:root {
+    --theme-general-color: #7a7a7a;
+    /* theme general color ok*/
+}
+
+:root {
+    --theme-primary-color: #eb6b8f;
+    /* theme primary color ok*/
+}
+
+:root {
+    --theme-secondary-color: #726ceb;
+    /* theme secondary color ok*/
+}
+
+:root {
+    --theme-white-color: #ffffff;
+    /* theme white font color ok*/
+}
+
+:root {
+    --theme-gray-color: #f8f9fc;
+    /* theme gray font color */
+}
+
+:root {
+    --theme-light-color: #f4f7fd;
+    /* theme light gray color ok*/
+}
+
+:root {
+    --theme-text-gray: #ffd5cc;
+    /* theme text gray color*/
+}
+:root {
+    --theme-extra1-color: #0e1a3c;
+    /* theme extra  color ok*/
+}
+:root {
+    --theme-extra2-color: #976bec;
+    /* theme extra  color ok*/
+}
+:root {
+    --theme-extra3-color: #dadada;
+    /* theme extra  color ok*/
+}
+:root {
+    --theme-extra4-color: #8C84FA;
+    /* theme extra  color ok*/
+}
+:root {
+    --theme-dark-color: #222222;
+    /* theme dark color ok*/
+}
+
+:root {
+    --theme-footer-color: #07112d;
+    /* theme dark color ok*/
+}
+
+:root {
+    --theme-primary-opacity-color: rgba(234, 196, 59, .5);
+    /* theme secondary color*/
+}
+
+:root {
+    --theme-secondary-opacity-color: rgba(42, 50, 112, .8);
+    /* theme secondary color */
+}
+
+:root {
+    --theme-extra1-opacity-color: rgba(34, 144, 135, .8);
+    /* theme secondary color*/
+}
+
+:root {
+    --theme-extra2-opacity-color: rgba(29, 45, 58, .8);
+    /* theme secondary color*/
+}
+
+
+/*==================================
+Font Variable
+==================================*/
+
+.full-row {
+    padding: 140px 0;
+}
+.text-extra1 {
+    color: var(--theme-extra1-color) !important;
+}
+.bg-extra1 {
+    background-color: var(--theme-extra1-color) !important;
+}
+.text-extra2 {
+    color: var(--theme-extra2-color) !important;
+}
+.bg-extra2 {
+    background-color: var(--theme-extra2-color) !important;
+}
+.text-extra3 {
+    color: var(--theme-extra3-color) !important;
+}
+.bg-extra3 {
+    background-color: var(--theme-extra3-color) !important;
+}
+.btn-extra4,
+.btn-extra4:hover {
+    background-color: var(--theme-extra4-color);
+    color: var(--theme-white-color);
+    text-transform: uppercase;
+}
+:root {
+    --theme-general-font: 'Poppins', sans-serif;
+    /* Font use for normal text and general text */
+}
+
+:root {
+    --theme-highlight-font: 'Poppins', sans-serif;
+    ;
+    /* Font used in title or special area */
+}
+
+:root {
+    --theme-hiperlink-font: 'Poppins', sans-serif;
+    /* Font use for normal text and link text */
+}
+p {
+    line-height: 30px;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: var(--theme-highlight-font);
+    color: var(--theme-dark-color);
+}
+
+h1,
+.h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+h2,
+.h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+h3,
+.h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h4,
+.h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h6,
+.h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.sasslar-title {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.btn {
+	font-weight: 700;
+}
+.list-style-tick li {
+    font-weight: 400;
+}
+.footer-widget .widget-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+.footer-nav ul li {
+    line-height: 32px;
+}
+footer.full-row {
+    padding: 90px 0 50px;
+}
+@media screen and (max-width:575px) {
+    h2, .h2 {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 991px) {
+	.full-row {
+		padding: 100px 0 !important
+	}
+}
